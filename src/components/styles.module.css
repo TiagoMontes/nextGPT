@@ -1,0 +1,33 @@
+.gptMessage {
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    margin: 2rem 0;
+}
+
+.chatInputField {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: .4rem;
+
+}
+
+.inputGpt {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 0.4rem;
+}
+
+.sendMessageButton {
+    border: 1px solid black;
+    padding: 0.4rem;
+    border-radius: 4px;
+}
+
+.gptResponse {
+    width: 30rem;
+    height: 20rem;
+    border: 1px solid black;
+    padding: 1.4rem;
+}
