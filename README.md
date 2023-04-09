@@ -1,3 +1,11 @@
+<!-- ATENÇÃO -->
+
+Insira a chave de acesso no arquivo getResponse, a chave você pode conseguir através desse link - https://platform.openai.com/account/api-keys
+
+Use o npm install para instalar todas as dependências corretamente
+
+<!-- ATENÇÃO -->
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

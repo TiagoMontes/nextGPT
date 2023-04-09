@@ -1,33 +1,56 @@
-.gptMessage {
+.messageContainer {
     display: flex;
     flex-direction: row;
     gap: 1.2rem;
     margin: 2rem 0;
 }
 
-.chatInputField {
+.messageInputField {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    flex-direction: column;
+    align-items: flex-start;
     gap: .4rem;
+}
 
+.messageInputField > label{
+    color: black;
+}
+
+.inputAndButton {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .inputGpt {
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 4px;
     padding: 0.4rem;
+    border-radius: 8px 0 0 8px;
+    width: 80%;
 }
 
 .sendMessageButton {
-    border: 1px solid black;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
     padding: 0.4rem;
-    border-radius: 4px;
+    border-radius: 0 8px 8px 0;
 }
 
-.gptResponse {
+.sendMessageButton:active {
+    background-color: rgb(69, 69, 69);
+}
+
+.messageResponse {
     width: 30rem;
     height: 20rem;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 1.4rem;
+    border-radius: 12px;
+}
+
+.messageResponse > p {
+    color: black;
 }

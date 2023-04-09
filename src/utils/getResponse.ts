@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = "INSIRA SUA CHAVE AQUI";
+const OPENAI_API_KEY = "INSIRA SUA CHAVE AQUI OU O NEGÓCIO N VAI FUNCIONAR";
 
 export async function getResponse(message: any) {
     const response = await fetch('https://api.openai.com/v1/completions', {
